@@ -26,7 +26,7 @@ public class MVCCTest {
       MVCC.commit(t3);
     }
     catch (Exception e) {
-      /* TODO */
+      System.out.println(e.getMessage());
     }
   }
 }
